@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Newsreader', sans-serif;
+    background-color: #bedce3;
+}
+
+a {
+    text-decoration:none;
+    font-size: 20px;
+    color: black;  
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fe7968;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 1px 6px #222221;
+}
+
+.logo { 
+    cursor: pointer;
+    width: 60px;
+}
+
+nav-list, ul, li {
+    display: flex;
+    background: #fe7968;
+    margin-left: 100px;
+}
+
+nav-list, ul, li :hover{
+    color: #bedce3;
+}
+
+.search {
+    display: flex;
+    border-radius: 20px;
+    padding: 10px 10px 10px;
+    background: #fe7968;
+    border: none;
+    font-family: 'Newsreader', sans-serif;
+    font-size: 16px;
+    transition: 1.3s;
+}
+
+.search-box :hover {
+    background-color: #000000;   
+}
